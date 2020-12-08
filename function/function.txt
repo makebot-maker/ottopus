@@ -1,1 +1,9 @@
-
+ottopus library function
+------------------------
+#include <Ottopus.h> //include Ottopus library
+Ottopus Ottopus; //Creat ottpus object
+Ottopus.ready(); //initalize ottopus
+Ottopus.home(); //home
+Ottopus.move(/* value : 1(forward), 2(backward), 3(left), 4(right) */); //move
+Ottopus.motion(/* value : ) //motion
+Ottopus.sound(/* value : 1(happy), 2(sad), 3(surprised), 4(angry), 5(sleepy), 6(joy) */); //sound
