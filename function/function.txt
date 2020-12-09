@@ -5,5 +5,5 @@ Ottopus Ottopus; //Creat ottpus object
 Ottopus.ready(); //initalize ottopus
 Ottopus.home(); //home
 Ottopus.move(/* value : 1(forward), 2(backward), 3(left), 4(right) */); //move
-Ottopus.motion(/* value : 1(hello), 2(yes), 3(no), 4(jump), 5(icanfly), 6(sleeping), 7(yay), 8(dance1), 9(dance2), 10(crazydance), 11(eating), 12(UFO)) //motion
+Ottopus.motion(/* value : 1(hello), 2(yes), 3(no), 4(jump), 5(icanfly), 6(sleeping), 7(yay), 8(dance1), 9(dance2), 10(crazydance), 11(eating), 12(UFO) */) //motion
 Ottopus.sound(/* value : 1(happy), 2(sad), 3(surprised), 4(angry), 5(sleepy), 6(joy) */); //sound
