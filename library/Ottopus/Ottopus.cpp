@@ -96,7 +96,7 @@ void Ottopus::move(int movenum) {  //move
       delay(200);
       setangles(90, 90, 181, 181, 181, 181);
       delay(200);
-      setangles(0, 180, 181, 181, 180, 0);
+      setangles(181, 181, 181, 181, 180, 0);
       delay(200);
       setangles(181, 181, 180, 0, 181, 181);
       delay(200);
@@ -151,7 +151,7 @@ void Ottopus::move(int movenum) {  //move
     delay(200);
     setangles(181, 181, 181, 90, 181, 181);
     delay(200);
-    setangles(181, 0, 181, 181, 181, 181);
+    setangles(0, 181, 181, 181, 181, 181);
     delay(200);
     setangles(181, 181, 181, 181, 181, 90);
     delay(200);
